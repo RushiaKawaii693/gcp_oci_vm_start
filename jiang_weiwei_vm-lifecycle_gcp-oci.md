@@ -6,56 +6,58 @@ Video:
 
 
 Google Cloud (GCP)
+---
 Create
-Console → Compute Engine → Create instance
-Region/zone:
-Machine type: <smallest available/free-eligible>
-Image: Ubuntu LTS
-Boot disk: default minimal
-Network: default VPC; ephemeral public IP
+1. Console → Compute Engine → Create instance
+2. Region/zone:
+3. Machine type: <smallest available/free-eligible>
+4. Image: Ubuntu LTS
+5. Boot disk: default minimal
+6. Network: default VPC; ephemeral public IP
 
 GCP creating
 ---
 ![Alt text](images/creationgooglesloud.png)
 
 Start/Stop
-Start:
-Stop: <state shows TERMINATED/STOPPED>
+- Start:
+- Stop: <state shows TERMINATED/STOPPED>
 
 GCP running
 ---
 ![Alt text](images/cloudrunning.png)
 
 Delete
-Delete instance and verify no disks/IPs remain
+-Delete instance and verify no disks/IPs remain
 
 GCP cleaned
 ---
 ![Alt text](images/cleanGCP.png)
 
 Oracle Cloud (OCI)
+---
 Create
-Compartment:
-Networking: VCN with Internet Connectivity (defaults)
-Shape: <smallest/free-eligible>
-Image: Ubuntu (or Oracle Linux)
-Public IP: ephemeral
-Boot volume: default minimal
+1. Compartment:
+2. Networking: VCN with Internet Connectivity (defaults)
+3. Shape: <smallest/free-eligible>
+4. Image: Ubuntu (or Oracle Linux)
+5. Public IP: ephemeral
+6. Boot volume: default minimal
 
 OCI create
 ---
 ![Alt text](images/createOCI.png)
 
 Start/Stop
-Start:
-Stop:
+- Start:
+- Stop:
 
 OCI running
 ---
 ![Alt text](images/startintorunning.png)
 
 Terminate
-Terminate and delete boot volume; verify cleanup
+- Terminate and delete boot volume; verify cleanup
 
 OCI cleaned
 ---
