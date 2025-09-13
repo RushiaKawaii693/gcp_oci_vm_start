@@ -52,7 +52,7 @@ OCI cleaned
 ![Alt text](images/terminated.png)
 
 Reflections
-
+---
 Similarities
 - Both allow creation of free-tier VMs with minimal shapes
 - Both support Ubuntu images
