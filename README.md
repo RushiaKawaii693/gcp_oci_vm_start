@@ -1,3 +1,5 @@
+VM Lifecycle on GCP and OCI — Tutorial
+
 # gcp_oci_vm_start
 HHA 504 Assignment 1
 - Tutorial Video (Oracle CLoud): [video link](https://www.loom.com/share/33e2819d0c99418d99488ba1ce0203a3?sid=bfb44b91-c182-479a-a2f2-0fa3a2a8028e) 
