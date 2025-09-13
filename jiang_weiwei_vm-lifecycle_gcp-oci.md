@@ -15,6 +15,7 @@ Boot disk: default minimal
 Network: default VPC; ephemeral public IP
 
 GCP creating
+---
 ![Alt text](images/creationgooglesloud.png)
 
 Start/Stop
