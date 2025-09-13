@@ -21,12 +21,15 @@ GCP creating
 Start/Stop
 Start:
 Stop: <state shows TERMINATED/STOPPED>
+
 GCP running
+---
 ![Alt text](images/cloudrunning.png)
 
 Delete
 Delete instance and verify no disks/IPs remain
 GCP cleaned
+---
 ![Alt text](images/cleanGCP.png)
 
 Oracle Cloud (OCI)
@@ -39,17 +42,20 @@ Public IP: ephemeral
 Boot volume: default minimal
 
 OCI create
+---
 ![Alt text](images/createOCI.png)
 
 Start/Stop
 Start:
 Stop:
 OCI running
+---
 ![Alt text](images/startintorunning.png)
 
 Terminate
 Terminate and delete boot volume; verify cleanup
 OCI cleaned
+---
 ![Alt text](images/terminated.png)
 
 Reflections
