@@ -28,7 +28,7 @@ GCP running
 ![Alt text](images/cloudrunning.png)
 
 Delete
--Delete instance and verify no disks/IPs remain
+- Delete instance and verify no disks/IPs remain
 
 GCP cleaned
 ---
