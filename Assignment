@@ -1,1 +1,44 @@
+Google Cloud (GCP)
+Create
+Console → Compute Engine → Create instance
+Region/zone:
+Machine type: <smallest available/free-eligible>
+Image: Ubuntu LTS
+Boot disk: default minimal
+Network: default VPC; ephemeral public IP
+
+![GCP creating](creationgooglesloud.png)
+
+Start/Stop
+Start:
+Stop: <state shows TERMINATED/STOPPED>
+GCP running
+
+Delete
+Delete instance and verify no disks/IPs remain
+GCP cleaned
+
+Oracle Cloud (OCI)
+Create
+Compartment:
+Networking: VCN with Internet Connectivity (defaults)
+Shape: <smallest/free-eligible>
+Image: Ubuntu (or Oracle Linux)
+Public IP: ephemeral
+Boot volume: default minimal
+OCI create
+
+Start/Stop
+Start:
+Stop:
+OCI running
+
+Terminate
+Terminate and delete boot volume; verify cleanup
+OCI cleaned
+
+Reflections
+Similarities
+Differences
+Preference (OCI vs GCP) and Why
 
