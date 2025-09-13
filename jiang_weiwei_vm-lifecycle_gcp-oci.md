@@ -28,6 +28,7 @@ GCP running
 
 Delete
 Delete instance and verify no disks/IPs remain
+
 GCP cleaned
 ---
 ![Alt text](images/cleanGCP.png)
@@ -48,12 +49,14 @@ OCI create
 Start/Stop
 Start:
 Stop:
+
 OCI running
 ---
 ![Alt text](images/startintorunning.png)
 
 Terminate
 Terminate and delete boot volume; verify cleanup
+
 OCI cleaned
 ---
 ![Alt text](images/terminated.png)
