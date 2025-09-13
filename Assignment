@@ -51,6 +51,7 @@ Similarities
 - Both support Ubuntu images
 - Lifecycle steps are the same: create → start → stop → delete/terminate
 - Ephemeral public IPs avoid resource leakage
+
 Differences
 - UI/Experience: GCP: Clean, user-friendly, lots of docs vs OCI: More enterprise-focused, extra steps sometimes
 - Lifecycle: GCP: Delete = everything cleaned up vs OCI: Must check Delete Boot Volume, or storage stays behind
