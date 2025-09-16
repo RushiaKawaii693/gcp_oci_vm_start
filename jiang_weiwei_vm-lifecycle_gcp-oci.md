@@ -27,6 +27,10 @@ GCP running
 ---
 ![Alt text](images/cloudrunning.png)
 
+GCP stopping
+---
+![Alt text](images/stoppedgooglecloud.png)
+
 Delete
 - Delete instance and verify no disks/IPs remain
 
